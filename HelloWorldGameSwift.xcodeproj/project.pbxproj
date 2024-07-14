@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC140522C443EC200D33FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC140512C443EC200D33FD5 /* AppDelegate.swift */; };
+		FAC140542C443EC200D33FD5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAC140532C443EC200D33FD5 /* GameScene.sks */; };
+		FAC140562C443EC200D33FD5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAC140552C443EC200D33FD5 /* Actions.sks */; };
+		FAC140582C443EC200D33FD5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC140572C443EC200D33FD5 /* GameScene.swift */; };
+		FAC1405A2C443EC200D33FD5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC140592C443EC200D33FD5 /* GameViewController.swift */; };
+		FAC1405D2C443EC200D33FD5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FAC1405C2C443EC200D33FD5 /* Base */; };
+		FAC1405F2C443EC300D33FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1405E2C443EC300D33FD5 /* Assets.xcassets */; };
+		FAC140622C443EC300D33FD5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FAC140612C443EC300D33FD5 /* Base */; };
+		FAC1406C2C443EC400D33FD5 /* HelloWorldGameSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1406B2C443EC400D33FD5 /* HelloWorldGameSwiftTests.swift */; };
+		FAC140762C443EC400D33FD5 /* HelloWorldGameSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC140752C443EC400D33FD5 /* HelloWorldGameSwiftUITests.swift */; };
+		FAC140782C443EC400D33FD5 /* HelloWorldGameSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC140772C443EC400D33FD5 /* HelloWorldGameSwiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC140682C443EC400D33FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC140462C443EC200D33FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC1404D2C443EC200D33FD5;
+			remoteInfo = HelloWorldGameSwift;
+		};
+		FAC140722C443EC400D33FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC140462C443EC200D33FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC1404D2C443EC200D33FD5;
+			remoteInfo = HelloWorldGameSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC1404E2C443EC200D33FD5 /* HelloWorldGameSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldGameSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC140512C443EC200D33FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC140532C443EC200D33FD5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FAC140552C443EC200D33FD5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FAC140572C443EC200D33FD5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FAC140592C443EC200D33FD5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FAC1405C2C443EC200D33FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC1405E2C443EC300D33FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC140612C443EC300D33FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC140672C443EC400D33FD5 /* HelloWorldGameSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldGameSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC1406B2C443EC400D33FD5 /* HelloWorldGameSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldGameSwiftTests.swift; sourceTree = "<group>"; };
+		FAC140712C443EC400D33FD5 /* HelloWorldGameSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldGameSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC140752C443EC400D33FD5 /* HelloWorldGameSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldGameSwiftUITests.swift; sourceTree = "<group>"; };
+		FAC140772C443EC400D33FD5 /* HelloWorldGameSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldGameSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC1404B2C443EC200D33FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC140642C443EC400D33FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC1406E2C443EC400D33FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC140452C443EC200D33FD5 = {
+			isa = PBXGroup;
+			children = (
+				FAC140502C443EC200D33FD5 /* HelloWorldGameSwift */,
+				FAC1406A2C443EC400D33FD5 /* HelloWorldGameSwiftTests */,
+				FAC140742C443EC400D33FD5 /* HelloWorldGameSwiftUITests */,
+				FAC1404F2C443EC200D33FD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC1404F2C443EC200D33FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1404E2C443EC200D33FD5 /* HelloWorldGameSwift.app */,
+				FAC140672C443EC400D33FD5 /* HelloWorldGameSwiftTests.xctest */,
+				FAC140712C443EC400D33FD5 /* HelloWorldGameSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC140502C443EC200D33FD5 /* HelloWorldGameSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FAC140512C443EC200D33FD5 /* AppDelegate.swift */,
+				FAC140532C443EC200D33FD5 /* GameScene.sks */,
+				FAC140552C443EC200D33FD5 /* Actions.sks */,
+				FAC140572C443EC200D33FD5 /* GameScene.swift */,
+				FAC140592C443EC200D33FD5 /* GameViewController.swift */,
+				FAC1405B2C443EC200D33FD5 /* Main.storyboard */,
+				FAC1405E2C443EC300D33FD5 /* Assets.xcassets */,
+				FAC140602C443EC300D33FD5 /* LaunchScreen.storyboard */,
+			);
+			path = HelloWorldGameSwift;
+			sourceTree = "<group>";
+		};
+		FAC1406A2C443EC400D33FD5 /* HelloWorldGameSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1406B2C443EC400D33FD5 /* HelloWorldGameSwiftTests.swift */,
+			);
+			path = HelloWorldGameSwiftTests;
+			sourceTree = "<group>";
+		};
+		FAC140742C443EC400D33FD5 /* HelloWorldGameSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC140752C443EC400D33FD5 /* HelloWorldGameSwiftUITests.swift */,
+				FAC140772C443EC400D33FD5 /* HelloWorldGameSwiftUITestsLaunchTests.swift */,
+			);
+			path = HelloWorldGameSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC1404D2C443EC200D33FD5 /* HelloWorldGameSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC1407B2C443EC400D33FD5 /* Build configuration list for PBXNativeTarget "HelloWorldGameSwift" */;
+			buildPhases = (
+				FAC1404A2C443EC200D33FD5 /* Sources */,
+				FAC1404B2C443EC200D33FD5 /* Frameworks */,
+				FAC1404C2C443EC200D33FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldGameSwift;
+			productName = HelloWorldGameSwift;
+			productReference = FAC1404E2C443EC200D33FD5 /* HelloWorldGameSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC140662C443EC400D33FD5 /* HelloWorldGameSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC1407E2C443EC400D33FD5 /* Build configuration list for PBXNativeTarget "HelloWorldGameSwiftTests" */;
+			buildPhases = (
+				FAC140632C443EC400D33FD5 /* Sources */,
+				FAC140642C443EC400D33FD5 /* Frameworks */,
+				FAC140652C443EC400D33FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC140692C443EC400D33FD5 /* PBXTargetDependency */,
+			);
+			name = HelloWorldGameSwiftTests;
+			productName = HelloWorldGameSwiftTests;
+			productReference = FAC140672C443EC400D33FD5 /* HelloWorldGameSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC140702C443EC400D33FD5 /* HelloWorldGameSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC140812C443EC400D33FD5 /* Build configuration list for PBXNativeTarget "HelloWorldGameSwiftUITests" */;
+			buildPhases = (
+				FAC1406D2C443EC400D33FD5 /* Sources */,
+				FAC1406E2C443EC400D33FD5 /* Frameworks */,
+				FAC1406F2C443EC400D33FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC140732C443EC400D33FD5 /* PBXTargetDependency */,
+			);
+			name = HelloWorldGameSwiftUITests;
+			productName = HelloWorldGameSwiftUITests;
+			productReference = FAC140712C443EC400D33FD5 /* HelloWorldGameSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC140462C443EC200D33FD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FAC1404D2C443EC200D33FD5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FAC140662C443EC400D33FD5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FAC1404D2C443EC200D33FD5;
+					};
+					FAC140702C443EC400D33FD5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FAC1404D2C443EC200D33FD5;
+					};
+				};
+			};
+			buildConfigurationList = FAC140492C443EC200D33FD5 /* Build configuration list for PBXProject "HelloWorldGameSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC140452C443EC200D33FD5;
+			productRefGroup = FAC1404F2C443EC200D33FD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC1404D2C443EC200D33FD5 /* HelloWorldGameSwift */,
+				FAC140662C443EC400D33FD5 /* HelloWorldGameSwiftTests */,
+				FAC140702C443EC400D33FD5 /* HelloWorldGameSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC1404C2C443EC200D33FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC140542C443EC200D33FD5 /* GameScene.sks in Resources */,
+				FAC1405D2C443EC200D33FD5 /* Base in Resources */,
+				FAC1405F2C443EC300D33FD5 /* Assets.xcassets in Resources */,
+				FAC140562C443EC200D33FD5 /* Actions.sks in Resources */,
+				FAC140622C443EC300D33FD5 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC140652C443EC400D33FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC1406F2C443EC400D33FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC1404A2C443EC200D33FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC140582C443EC200D33FD5 /* GameScene.swift in Sources */,
+				FAC1405A2C443EC200D33FD5 /* GameViewController.swift in Sources */,
+				FAC140522C443EC200D33FD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC140632C443EC400D33FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC1406C2C443EC400D33FD5 /* HelloWorldGameSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC1406D2C443EC400D33FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC140782C443EC400D33FD5 /* HelloWorldGameSwiftUITestsLaunchTests.swift in Sources */,
+				FAC140762C443EC400D33FD5 /* HelloWorldGameSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC140692C443EC400D33FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC1404D2C443EC200D33FD5 /* HelloWorldGameSwift */;
+			targetProxy = FAC140682C443EC400D33FD5 /* PBXContainerItemProxy */;
+		};
+		FAC140732C443EC400D33FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC1404D2C443EC200D33FD5 /* HelloWorldGameSwift */;
+			targetProxy = FAC140722C443EC400D33FD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC1405B2C443EC200D33FD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC1405C2C443EC200D33FD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC140602C443EC300D33FD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC140612C443EC300D33FD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC140792C443EC400D33FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC1407A2C443EC400D33FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC1407C2C443EC400D33FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X55NKW2AK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peanut-Games.HelloWorldGameSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC1407D2C443EC400D33FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X55NKW2AK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peanut-Games.HelloWorldGameSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC1407F2C443EC400D33FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X55NKW2AK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peanut-Games.HelloWorldGameSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldGameSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloWorldGameSwift";
+			};
+			name = Debug;
+		};
+		FAC140802C443EC400D33FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X55NKW2AK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peanut-Games.HelloWorldGameSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldGameSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloWorldGameSwift";
+			};
+			name = Release;
+		};
+		FAC140822C443EC400D33FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X55NKW2AK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peanut-Games.HelloWorldGameSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWorldGameSwift;
+			};
+			name = Debug;
+		};
+		FAC140832C443EC400D33FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X55NKW2AK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peanut-Games.HelloWorldGameSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWorldGameSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC140492C443EC200D33FD5 /* Build configuration list for PBXProject "HelloWorldGameSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC140792C443EC400D33FD5 /* Debug */,
+				FAC1407A2C443EC400D33FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC1407B2C443EC400D33FD5 /* Build configuration list for PBXNativeTarget "HelloWorldGameSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC1407C2C443EC400D33FD5 /* Debug */,
+				FAC1407D2C443EC400D33FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC1407E2C443EC400D33FD5 /* Build configuration list for PBXNativeTarget "HelloWorldGameSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC1407F2C443EC400D33FD5 /* Debug */,
+				FAC140802C443EC400D33FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC140812C443EC400D33FD5 /* Build configuration list for PBXNativeTarget "HelloWorldGameSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC140822C443EC400D33FD5 /* Debug */,
+				FAC140832C443EC400D33FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC140462C443EC200D33FD5 /* Project object */;
+}
